@@ -1,8 +1,10 @@
 package com.bootcampexcercise.module2.activity;
 
 public class VariableAssignmentActivity {
-   String name = "John";
-   name = "Kristina";
-   System.out.printIn(name);
+   public static void main(String[] args) {
+      String name = "John";
+      System.out.println(name) ;}
+
+
 }
 
