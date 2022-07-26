@@ -3,9 +3,9 @@ package com.bootcampexcercise.module2.activity;
 public class numtowordswithmethodcalling {
 
     public static void main(String args[]) {
-        NumToWords numToWords = new NumToWords();
-        numToWordsLogic(5);
 
+        numToWordsLogic(5);
+        NumToWords numToWords = new NumToWords();
     }
     public static void numToWordsLogic(int x) {
         switch (x){
