@@ -15,7 +15,7 @@ public class MultiplicationTable {
 
         for (int i = 11; i <= 20; i++) {
             System.out.println("Table of "+i + " +j");
-            for (int j = 1; j <= 10; j++) {
+            for (int j = 11; j <= 20; j++) {
                 System.out.println(i + "*" + j + " = " +i*j);
             }
         }
