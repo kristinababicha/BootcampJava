@@ -6,11 +6,11 @@ public class AnimalActivity {
     //TODO: Use interfaces to declare identifiers instead of the actual classes
     Animal cat = new Cat();
     //TODO: Create Dog using interface Animal
-        Animal dog = new Dog();
+         Animal dog = new Dog();
 
 
 
-    Mammal mammal = new Mammal("Flexy");
+        {Mammal mammal = new Mammal("Flexy");
 
     //TODO: For mammal set animal to cat
         mammal.setAnimal(cat);
@@ -18,16 +18,17 @@ public class AnimalActivity {
         mammal.animalIsSleeping();
 
     //TODO: execute for mammal animalIsSpeaking()
-        mammal.animalIsSpeaking();
+        mammal.animalIsSpeaking();}
 
     //TODO: For mammal set animal to dog
+        {Mammal mammal = new Mammal("Dora");
         mammal.setAnimal(dog);
 
     //TODO: execute for mammal animalIsSleeping()
         mammal.animalIsSleeping();
 
     //TODO: execute for mammal animalIsSpeaking()
-        mammal.animalIsSpeaking();
+        mammal.animalIsSpeaking();}
 }
 
 }

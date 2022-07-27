@@ -1,6 +1,6 @@
 package com.bootcampexcercise.module6;
 
-public class Cat implements Animal{
+public class Cat implements Animal {
     //TODO: Create method animalSound() and its implementation should print out string "Cat says: 'Meow Meow'!"
     public void animalSound() {
         System.out.println("Cat says: 'Meow Meow'!");
