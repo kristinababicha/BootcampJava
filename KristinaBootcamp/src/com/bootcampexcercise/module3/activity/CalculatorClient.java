@@ -46,6 +46,7 @@ public class CalculatorClient {
         //TODO Write code which will use normalCalc and subtract function
         //TODO Subtract numbers should be 10 and 2
         //TODO Subtract result should be printed in similar style as multiply and addition
+
     }
 
 
