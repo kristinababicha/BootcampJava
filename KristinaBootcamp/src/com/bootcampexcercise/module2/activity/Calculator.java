@@ -11,16 +11,17 @@ public class Calculator {
         System.out.println("Divide = " + divide(x, y));
     }
 
+    //method  of calculation
     private static int add(int x, int y) {
         int sum = x + y;
         return sum;
     }
-
+//method of subtraction
     private static int subtract(int x, int y) {
         int diff = x - y;
         return diff;
     }
-
+//method of multiplying
     private static int multiply(int[] numbers) {
         int temp=1;
         for (int i=0; i < numbers.length; i++) {
@@ -28,7 +29,7 @@ public class Calculator {
         }
         return temp;
     }
-
+//method of division
     private static int divide(int x, int y) {
         int divValue = 0;
         if (x == 0 && y == 0) {

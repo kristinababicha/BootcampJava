@@ -32,7 +32,9 @@ public class Calculator {
     }
 
     // Add
-    public int add(int x, int y) {
+    public int add(int x, int y)
+    //body of method in {}
+     {
         int sum = x + y;
         return sum;
     }
