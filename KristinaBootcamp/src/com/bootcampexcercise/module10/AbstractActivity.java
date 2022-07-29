@@ -13,4 +13,5 @@ public class AbstractActivity {
         System.out.println("Introduction from student");
         newStudent.introducePerson();
     }
+
 }

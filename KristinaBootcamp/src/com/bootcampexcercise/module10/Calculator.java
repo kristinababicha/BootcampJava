@@ -25,15 +25,20 @@ public class Calculator {
     }
     //exception for multiplier
 
-    public void performMultiply(){
-        try {
-            int a =0;
-        } catch (Exception e) {
-            System.out.println(0);
-        }
-    }
+//    public void performMultiply(){
+//        try {
+//            int a =0;
+//        } catch (Exception e) {
+//            System.out.println(0);
+//        }
+//    }
 
     public double getQuotient (double a, double b) {
-        return a/b;
+        try {
+            return a / b;
+        } catch (Exception ex) {
+            System.out.println("Division error");
+            throw ex;
+        }
     }
 }

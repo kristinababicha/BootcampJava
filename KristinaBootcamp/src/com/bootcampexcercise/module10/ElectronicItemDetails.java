@@ -17,6 +17,7 @@ public class ElectronicItemDetails {
 
         }
     public double returnPriceOfItem(Map< String,Double> map, String name){
+
         return map.get(name);
     }
 
