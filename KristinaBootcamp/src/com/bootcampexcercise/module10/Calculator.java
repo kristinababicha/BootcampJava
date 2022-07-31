@@ -15,6 +15,9 @@ public class Calculator {
 
         return (a+b);
     }
+    public int getSum(int a, int b, int c) {
+        return (a+b+c);
+    }
     public int getDifference (int a, int b) {
 
         return (a-b);
@@ -34,11 +37,26 @@ public class Calculator {
 //    }
 
     public double getQuotient (double a, double b) {
+        double result = 0;
         try {
-            return a / b;
-        } catch (Exception ex) {
-            System.out.println("Division error");
-            throw ex;
+            if (a == 0 || b == 0) {
+                throw new ArithmeticException();
+            } else {
+                result = a / b;
+            }
+            System.out.println("Division result is " + result);
+        } catch (ArithmeticException e) {
+            throw new ArithmeticException("Zero cannot be entered");
+        } finally {
+            System.out.println("******");
         }
+        return result;
+
+//        try {
+//            return a / b;
+//        } catch (Exception ex) {
+//            System.out.println("Division error");
+//            throw ex;
+//        }
     }
 }
